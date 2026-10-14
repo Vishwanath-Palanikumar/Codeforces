@@ -1,17 +1,4 @@
+
 # Default ignored files
 /shelf/
 /workspace.xml
-
-
-# Compiled Java files
-out/
-*.class
-
-# IntelliJ IDEA
-.idea/
-*.iml
-
-# OS files
-.DS_Store
-Thumbs.db
-
