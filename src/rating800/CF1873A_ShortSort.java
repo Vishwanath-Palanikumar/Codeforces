@@ -1,26 +1,27 @@
 /*
-1873 A. Short Sort
-https://codeforces.com/problemset/problem/1873/A
-
-Example
-
-Input
-6
-abc
-acb
-bac
-bca
-cab
-cba
-
-Output
-YES
-YES
-YES
-NO
-NO
-YES
-*/
+ * Codeforces 1873A - Short Sort
+ * Rating: 800
+ * Link: https://codeforces.com/problemset/problem/1873/A
+ *
+ * Problem:
+ * Given a string containing the characters 'a', 'b', and 'c',
+ * determine whether it can be transformed into "abc" using
+ * at most one swap of two characters.
+ *
+ * Input:
+ * t test cases, each containing a string of length 3.
+ *
+ * Output:
+ * Print "YES" if the string can become "abc" with at most
+ * one swap; otherwise, print "NO".
+ *
+ * Approach:
+ * Count the positions that differ from "abc".
+ * If the mismatch count is 0 or 2, print "YES";
+ * otherwise, print "NO".
+ *
+ * Complexity: O(1) time and O(1) extra space per test case.
+ */
 
 package rating800;
 import java.util.*;
