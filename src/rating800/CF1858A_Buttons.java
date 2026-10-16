@@ -36,11 +36,7 @@ public class CF1858A_Buttons {
             int b = obj.nextInt();
             int c = obj.nextInt();
 
-            int cMove = (c + 1) / 2;
-            int aMove = a + cMove;
-            int bMove = b + (c - cMove);
-
-            System.out.println((aMove > bMove) ? "First" : "Second");
+            System.out.println(((a + b + c) % 2 != 0) ? "First" : "Second");
         }
     }
 }
